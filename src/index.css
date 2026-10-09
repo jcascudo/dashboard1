@@ -8,3 +8,20 @@ main {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+
+.flash-button {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  background: #d32f2f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.flash-button.flashing {
+  background: #2e7d32;
+  transition: none;
+}
